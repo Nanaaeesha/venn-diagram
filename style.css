@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 5px;
+
+}
+#venn{
+    border: 3px solid black;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    transform: translatex(300px);
+    padding: 20px;
+    margin: 20px;
+}
+#blue{
+    border: 2px solid ;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+    mix-blend-mode: difference;
+
+
+}
+
+#red{
+    border: 2px solid ;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    left: 120px;
+    mix-blend-mode: difference;
+
+
+}
+
+#yellow{
+    border: 2px solid ;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    mix-blend-mode: difference;
+
+
+}
+
